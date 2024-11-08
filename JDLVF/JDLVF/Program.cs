@@ -1,0 +1,17 @@
+﻿using JDLVF;
+using System;
+using System.Windows.Forms;
+
+namespace Jeu_de_la_vie_console
+{
+    internal class Program
+    {
+        [STAThread]
+        private static void Main(string[] args)
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
