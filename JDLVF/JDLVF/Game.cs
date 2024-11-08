@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JDLVF;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -38,8 +39,7 @@ namespace Jeu_de_la_vie_console
 
         public void RunGameConsole()
         {
-            //grid.DisplayGrid();
-            for (int i = 0; i < iter; i++)
+            for (int i = 0; i < Form1.generation; i++)
             {
                 grid.Update();
                 //grid.DisplayGrid();

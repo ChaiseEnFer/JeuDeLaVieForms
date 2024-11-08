@@ -19,14 +19,14 @@ namespace JDLVF
         private Labrlll label; // Add this line to declare label
         private int n;
 
-        private int generation; // Déclaration de l'attribut generation
+        public static int generation; // Déclaration de l'attribut generation
 
         public Form1(int n = 40)
         {
             InitializeComponent();
             pictureBox1 = new PictureBox(); // Initialize pictureBox1
             label = new Labrlll(); // Initialize label
-            game = new Game(n, 100, 900); // Initialize game
+            game = new Game(n, 100, 250); // Initialize game
             generation = 0; // Initialiser generation à 0
 
             BackColor = Color .Black; // Set background color to black
